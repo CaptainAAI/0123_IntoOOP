@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class bangunDatar
+class bangunDatar{;
 	private:
 		float panjang, lebar;
 	public:
@@ -16,3 +16,9 @@ class bangunDatar
 			return panjang * lebar;
 		}
 
+		void display() {
+			cout << "Panjangnya = " << panjang << endl;
+			cout << "Lebarnya = " << lebar << endl;
+			cout << "Luasnya = " << hitungLuas() << endl;
+		}
+};
